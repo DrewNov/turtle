@@ -23,7 +23,7 @@ while (True):
 	for i in turtles:
 		a = 90 * random()
 		
-		if turtles.index(i) in [3,6,9]:
+		if turtles.index(i) == 9:
 			i.circle(a)
 		else:
 			i.left(a)
